@@ -1,0 +1,97 @@
+.container-fluid{
+	padding-left:0% !important;
+}
+
+img {
+    	border-radius: 50%;
+    	width:15% !important;
+    	padding: 2%;
+    	margin-left: 3%;
+    	
+	}
+	
+@media screen and (max-width: 850px)
+{
+	.mobile-view{
+		width: 100% !important;
+	}
+	.mobile-view-search{
+		width: 105% !important;
+	}
+}
+
+.navbar{
+	 	position: fixed;
+	  	width:auto;
+	  }
+
+
+#square-img{
+	border-radius: 0% !important;
+	width: 100% !important;
+}
+#wallpaper{
+	background-image:url('https://i.pinimg.com/originals/40/39/e0/4039e0f1ef08b7b965bacb4641a7af49.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index:-99999;
+}
+
+#status-logo{
+				color:grey;
+				padding-left:4em;
+				padding-top:1.5%;
+				font-size:1.2em;
+			}
+#group{
+	padding-left: 10px !important;
+}
+
+#chats-logo{
+				color:grey;
+				padding-left:3%;
+				padding-top:1.5%;
+				font-size:1.2em;
+			}
+
+.search{
+			padding-top: 19%;
+			/*position:fixed;*/
+			padding-left: 2%;
+		}
+
+.active{
+			background-color: #E9EBEB !important;
+			border-color: #E9EBEB !important;
+			color:black !important;
+		}
+
+.badge{
+			color:white;
+			background-color: #3eef5e;
+			/*background-color: #2b7c6f;*/
+	  }
+
+#moms_dp{
+			border-radius: 50%;
+	 		width:8% !important;
+    		height: 8% !important;
+		}
+
+.scroll {
+    
+    		height: 520px;
+    		width: auto;    
+    		overflow-y: auto;
+    	}
+
+/*@media screen and (min-width: 270px ) and (max-width:1130px)
+  {
+  	.navbar{
+	 	position: fixed;
+	  	width:auto;
+	  }
+  	
+  }*/
+
+
